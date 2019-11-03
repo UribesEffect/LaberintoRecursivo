@@ -1,0 +1,24 @@
+
+casos 1(izquierda == pared && derecha == pared && front == pared){
+      gira izquierda;
+      gira izquierda;
+}
+caso 2(izquierda == pared && derecha == pared && front !=pared){
+    mover adelante;
+}
+caso 3(izquierda == pared && derecha != pared && front ==pared){
+    girar derecha;
+    mover adelante;
+}
+caso 4(izquierda != pared && derecha == pared && front ==pared){
+    girar izquierda;
+    mover adelante;
+}
+caso 5(izquierda == pared && derecha != pared && front !=pared){
+    girar derecha;
+    mover adelante;
+}
+caso 6(izquierda != pared && derecha != pared && front !=pared){
+    girar derecha;
+    mover adelante;
+}
