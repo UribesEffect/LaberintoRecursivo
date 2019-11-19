@@ -29,7 +29,7 @@ int arriba, abajo, izquierda, derecha; // Aqui guardamos la informacion de la ma
 
 
 void leerArchivo() {
-     int maxCol;
+    int maxCol;
     FILE *archivo;
     char caracter;
     int codigo;
