@@ -1,3 +1,4 @@
+
 #include <fstream>
 #include <iostream>
 using namespace std;
@@ -50,7 +51,7 @@ void leerArchivo() {
                      }
 
                      columnas = 0;
-                     cout << '\t';
+
 
                 } else {
                        matriz[filas][columnas] = caracterAscii - 48;
@@ -67,7 +68,11 @@ void leerArchivo() {
         columnas = maxCol; // aqui ya se asigna la cantidad de columnas de la matriz
         cout << "########################################################" << '\n';
         cout << "# Archivo leido exitosamente y se llama: " << a <<" #\n";
+        cout << "########################################################" << '\n';
         cout << "###      A continuacion el inicio del laberinto" << "      ###\n";
+        cout << "########################################################" << '\n';
+        cout << "###     Para avanzar cada posicion presione Enter    " << "###\n";
+        cout << "###     y mantenga undido Enter para verlo rapido    " << "###\n";
         cout << "########################################################" << '\n';
         archivo.close(); // cerramos el archivo
 
@@ -212,7 +217,10 @@ void recorrido_total(){
     MuestraLaberinto();
 
   }
-  cout << "Cantidad de pasos dados: " << pasos <<'\n';
+  cout << '\n';
+  cout << "#########################################\n";
+  cout << "##     Cantidad de pasos dados: " << pasos <<"    ##\n";
+  cout << "#########################################\n";
 }
 
 
@@ -222,7 +230,56 @@ int main() {
     leerArchivo();
     MuestraLaberinto();
     recorrido_total();
-    cout << "Has llegado a la meta\n";
+    // cout<< "    _____Sexy?Sex\n";
+    // cout<< "____?Sexy?Sexy\n";
+    // cout<< "___y?Sexy?Sexy?\n";
+    // cout<< "___?Sexy?Sexy?S\n";
+    // cout<< "___?Sexy?Sexy?S\n";
+    // cout<< "__?Sexy?Sexy?Se\n";
+    // cout<< "_?Sexy?Sexy?Se\n";
+    // cout<< "_?Sexy?Sexy?Se\n";
+    // cout<< "_?Sexy?Sexy?Sexy?\n";
+    // cout<< "?Sexy?Sexy?Sexy?Sexy\n";
+    // cout<< "?Sexy?Sexy?Sexy?Sexy?Se\n";
+    // cout<< "?Sexy?Sexy?Sexy?Sexy?Sex\n";
+    // cout<< "_?Sexy?__?Sexy?Sexy?Sex\n";
+    // cout<< "___?Sex____?Sexy?Sexy?\n";
+    // cout<< "___?Sex_____?Sexy?Sexy\n";
+    // cout<< "___?Sex_____?Sexy?Sexy\n";
+    // cout<< "____?Sex____?Sexy?Sexy\n";
+    // cout<< "_____?Se____?Sexy?Sex\n";
+    // cout<< "______?Se__?Sexy?Sexy\n";
+    // cout<< "_______?Sexy?Sexy?Sex\n";
+    // cout<< "________?Sexy?Sexy?sex\n";
+    // cout<< "_______?Sexy?Sexy?Sexy?Se\n";
+    // cout<< "_______?Sexy?Sexy?Sexy?Sexy?\n";
+    // cout<< "_______?Sexy?Sexy?Sexy?Sexy?Sexy\n";
+    // cout<< "_______?Sexy?Sexy?Sexy?Sexy?Sexy?S\n";
+    // cout<< "________?Sexy?Sexy____?Sexy?Sexy?se\n";
+    // cout<< "_________?Sexy?Se_______?Sexy?Sexy?\n";
+    // cout<< "_________?Sexy?Se_____?Sexy?Sexy?\n";
+    // cout<< "_________?Sexy?S____?Sexy?Sexy\n";
+    // cout<< "_________?Sexy?S_?Sexy?Sexy\n";
+    // cout<< "________?Sexy?Sexy?Sexy\n";
+    // cout<< "________?Sexy?Sexy?S\n";
+    // cout<< "________?Sexy?Sexy\n";
+    // cout<< "_______?Sexy?Se\n";
+    // cout<< "_______?Sexy?\n";
+    // cout<< "______?Sexy?\n";
+    // cout<< "______?Sexy?\n";
+    // cout<< "______?Sexy?\n";
+    // cout<< "______?Sexy\n";
+    // cout<< "______?Sexy\n";
+    // cout<< "_______?Sex\n";
+    // cout<< "_______?Sex\n";
+    // cout<< "_______?Sex\n";
+    // cout<< "______?Sexy\n";
+    // cout<< "______?Sexy\n";
+    // cout<< "_______Sexy\n";
+    // cout<< "_______ Sexy?\n";
+    // cout<< "________SexY\n";
+    cout << "#         HAS LLEGADO A LA META         #\n";
+    cout << "#########################################\n";
 
     return 0;
 
