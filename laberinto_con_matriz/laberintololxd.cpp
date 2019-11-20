@@ -1,4 +1,3 @@
-
 #include <fstream>
 #include <iostream>
 using namespace std;
@@ -66,14 +65,14 @@ void leerArchivo() {
         }
 
         columnas = maxCol; // aqui ya se asigna la cantidad de columnas de la matriz
-        cout << "########################################################" << '\n';
-        cout << "# Archivo leido exitosamente y se llama: " << a <<" #\n";
-        cout << "########################################################" << '\n';
-        cout << "###      A continuacion el inicio del laberinto" << "      ###\n";
-        cout << "########################################################" << '\n';
-        cout << "###     Para avanzar cada posicion presione Enter    " << "###\n";
-        cout << "###     y mantenga undido Enter para verlo rapido    " << "###\n";
-        cout << "########################################################" << '\n';
+        cout << "  ########################################################" << '\n';
+        cout << "  # Archivo leido exitosamente y se llama: " << a <<" #\n";
+        cout << "  ########################################################" << '\n';
+        cout << "  ###      A continuacion el inicio del laberinto" << "      ###\n";
+        cout << "  ########################################################" << '\n';
+        cout << "  ###     Para avanzar cada posicion presione Enter    " << "###\n";
+        cout << "  ###     y mantenga undido Enter para verlo rapido    " << "###\n";
+        cout << "  ########################################################" << '\n';
         archivo.close(); // cerramos el archivo
 
 
@@ -97,7 +96,7 @@ void MuestraLaberinto() {
         }
     cout << "\n";
     }
-    cout << "###################################################" << '\n';//para separar un laberinto de otro
+    cout << "############################################################" << '\n';//para separar un laberinto de otro
 
 }
 
@@ -218,9 +217,9 @@ void recorrido_total(){
 
   }
   cout << '\n';
-  cout << "#########################################\n";
-  cout << "##     Cantidad de pasos dados: " << pasos <<"    ##\n";
-  cout << "#########################################\n";
+  cout << "         #########################################\n";
+  cout << "         ##     Cantidad de pasos dados: " << pasos <<"    ##\n";
+  cout << "         #########################################\n";
 }
 
 
@@ -278,8 +277,8 @@ int main() {
     // cout<< "_______Sexy\n";
     // cout<< "_______ Sexy?\n";
     // cout<< "________SexY\n";
-    cout << "#         HAS LLEGADO A LA META         #\n";
-    cout << "#########################################\n";
+    cout << "         #         HAS LLEGADO A LA META         #\n";
+    cout << "         #########################################\n";
 
     return 0;
 
